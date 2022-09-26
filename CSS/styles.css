@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
@@ -18,11 +20,15 @@ body {
   border: 2px solid #000;
 }
 
+/* header */
+
 header {
   font-size: 2rem;
   text-align: center;
   border-bottom: 3px solid #000;
 }
+
+/* main */
 
 main {
   display: flex;
@@ -37,6 +43,7 @@ main {
   justify-content: space-around;
   align-items: center;
   margin-top: 100px;
+  /* margin-bottom: 100px; */
   position: relative;
   width: 500px;
   height: 500px;
@@ -45,7 +52,7 @@ main {
   padding: 50px;
 }
 
-img {
+.flex-container img {
   position: absolute;
   top: -25px;
   right: 10px;
@@ -60,4 +67,29 @@ button:hover {
   background-color: blue;
   color: #fff;
   font-size: larger;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 100px;
+  left: 0;
+  width: 100%;
+
+  height: 90px;
+  bottom: 0;
+  margin-top: 100px;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.footer nav {
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
 }
