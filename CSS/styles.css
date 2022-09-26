@@ -10,11 +10,54 @@ body {
   line-height: 1.5;
   background-color: aqua;
   margin: 30px;
-  /* border: 1px solid #000; */
+  width: 1200px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap; */
+  border: 2px solid #000;
 }
 
 header {
   font-size: 2rem;
   text-align: center;
   border-bottom: 3px solid #000;
+}
+
+main {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(139, 195, 233);
+  border: 3px double #000;
+  padding: 50px;
+}
+
+img {
+  position: absolute;
+  top: -25px;
+  right: 10px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+}
+
+button:hover {
+  background-color: blue;
+  color: #fff;
+  font-size: larger;
 }
