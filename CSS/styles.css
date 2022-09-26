@@ -26,7 +26,9 @@ header {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .flex-container {
   display: flex;
@@ -46,4 +48,8 @@ button {
   height: 50px;
 }
 
-button: hover;
+button:hover {
+  background-color: blue;
+  color: #fff;
+  font-size: larger;
+}
