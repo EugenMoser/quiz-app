@@ -12,12 +12,13 @@ body {
   line-height: 1.5;
   background-color: aqua;
   margin: 30px;
-  width: 1200px;
+  width: 1000px;
   /* display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap; */
   border: 2px solid #000;
+  border-radius: 20px;
 }
 
 /* header */
@@ -43,10 +44,11 @@ main {
   justify-content: space-around;
   align-items: center;
   margin-top: 100px;
-  
+
   font-size: 1.2rem;
   position: relative;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 400px;
   background-color: rgb(84, 182, 248);
   border: 3px double #000;
@@ -62,20 +64,19 @@ main {
 }
 
 .flex-container ul {
-    position:absolute;
-    left:10px;
-    bottom: 10px;
-
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
 }
 
 button {
-    position: absolute;
-    top:200px;
-    left:50%;
-    transform: translate(-50%,0);
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, 0);
   width: 200px;
   height: 50px;
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 
 button:hover {
@@ -85,7 +86,7 @@ button:hover {
 }
 
 .answer {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /* footer */
@@ -94,15 +95,16 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+
   position: fixed;
-  left: 0;
+  left: 30px;
 
   width: 100%;
+  max-width: 1000px;
   height: 90px;
   bottom: 0;
-  background-color: #CCCCCC;
-  
-
+  background-color: #cccccc;
+  border-radius: 50px;
   z-index: 10;
 }
 
@@ -111,10 +113,8 @@ button:hover {
   justify-content: space-evenly;
 
   width: 100%;
-  x
 }
 
-.active {    
-    border-bottom: 10px solid #000;
-    
+.active {
+  border-bottom: 10px solid #000;
 }
