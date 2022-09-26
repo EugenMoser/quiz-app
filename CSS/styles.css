@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: aqua;
+  margin: 30px;
+  /* border: 1px solid #000; */
+}
+
+header {
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 3px solid #000;
+}
