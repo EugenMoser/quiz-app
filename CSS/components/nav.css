@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  left: 30px;
+
+  width: 100%;
+  max-width: 1000px;
+  height: 90px;
+  bottom: 0;
+  background-color: #cccccc;
+  border-radius: 50px;
+  z-index: 10;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+/* aktive Site wird im Nav unterstrichen */
+.active {
+  border-bottom: 10px solid #000;
+}
