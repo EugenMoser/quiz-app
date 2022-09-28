@@ -21,6 +21,7 @@
 
   width: 100%;
 }
+
 /* aktive Site wird im Nav unterstrichen */
 .active {
   border-bottom: 10px solid #000;
