@@ -32,9 +32,9 @@ main {
 }
 
 :root {
-  --primery-color: #00ffff;
-  --card-color: #54b6f8;
-  --hover-color-back: #0000ff;
+  --primery-color: #007a80;
+  --card-color: #00b6bf;
+  --hover-color-back: #003d40;
   --hover-color-font: #fff;
-  --nav-color: #cccccc;
+  --nav-color: #fff;
 }

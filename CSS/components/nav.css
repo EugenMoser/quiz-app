@@ -10,7 +10,7 @@
   height: 90px;
   bottom: 0;
   background-color: var(--nav-color);
-  border-radius: 50px;
+
   z-index: 10;
 }
 
