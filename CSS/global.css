@@ -10,9 +10,11 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   line-height: 1.5;
-  background-color: aqua;
+  background-color: var(--primery-color);
   margin: 30px;
-  width: 1000px;
+
+  max-width: 1000px;
+
   /* display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,4 +28,12 @@ main {
   flex-direction: column;
   align-items: center;
   margin-bottom: 190px;
+}
+
+:root {
+  --primery-color: #00ffff;
+  --card-color: #54b6f8;
+  --hover-color-back: #0000ff;
+  --hover-color-font: #fff;
+  --nav-color: #cccccc;
 }

@@ -10,7 +10,7 @@
   width: 100%;
   max-width: 400px;
   height: 400px;
-  background-color: rgb(84, 182, 248);
+  background-color: var(--card-color);
   border: 3px double #000;
   border-radius: 10%;
   padding: 50px;

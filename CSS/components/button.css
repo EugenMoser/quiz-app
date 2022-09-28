@@ -9,7 +9,7 @@
 }
 
 .button--answer:hover {
-  background-color: blue;
-  color: #fff;
+  background-color: var(--hover-color-back);
+  color: var(--hover-color-font);
   font-size: larger;
 }
