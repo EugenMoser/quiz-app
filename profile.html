@@ -8,29 +8,48 @@
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1>Quiz - App</h1>
     </header>
 
     <main>
-      <section class="profile-img">
+      <section class="profile">
         <img src="./assets/img/Bild_Moser.png" />
-      </section>
 
-      <section class="profile-name">
         <p>Eugen Moser</p>
       </section>
 
-      <section class="about-me"></section>
-      <section class="counter"></section>
-      <section class="settings"></section>
+      <section class="about-me">
+        <h2>about me</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+          clita kasd gubergren,
+        </p>
+      </section>
+
+      <section class="counter">
+        <ul>
+          <li class="counter--questions">xxx</li>
+          <li class="counter--bookmarks">yyy</li>
+        </ul>
+      </section>
+      <section class="settings">
+        <p>Dark Mode</p>
+      </section>
     </main>
 
     <footer class="footer">
       <nav class="nav-icons">
-        <img src="./assets/icons/house-white-50.png" alt="link zur Startseite" />
-        <img src="./assets/icons/bookmark-50.png" alt="link zu den Lesezeichen" />
-        <img class="active" src="./assets/icons/profile-50.png" alt="link zum Profile" />
+        <a href="./index.html">
+          <img src="./assets/icons/house-white-50.png" alt="link zur Startseite" />
+        </a>
+        <a href="./bookmarks.html">
+          <img src="./assets/icons/bookmark-50.png" alt="link zu den Lesezeichen" />
+        </a>
+        <a href="./profile.html">
+          <img class="active" src="./assets/icons/profile-50.png" alt="link zum Profile" />
+        </a>
       </nav>
     </footer>
   </body>
