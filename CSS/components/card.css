@@ -1,4 +1,4 @@
-.flex-container {
+.main__card {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -17,13 +17,13 @@
 }
 
 /* bookmark */
-.flex-container img {
+.main__card img {
   position: absolute;
   top: -25px;
   right: 20px;
 }
 
-.flex-container ul {
+.main__card ul {
   position: absolute;
   left: 30px;
   bottom: 10px;
