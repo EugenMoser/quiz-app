@@ -10,7 +10,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   line-height: 1.5;
-  background-color: var(--primery-color);
+  background-color: var(--primary-color);
   margin: 30px;
 
   max-width: 1000px;
@@ -32,7 +32,7 @@ main {
 }
 
 :root {
-  --primery-color: #007a80;
+  --primary-color: #007a80;
   --card-color: #00b6bf;
   --hover-color-back: #003d40;
   --hover-color-font: #fff;
