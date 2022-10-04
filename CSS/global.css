@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: var(--primary-color);
+  margin: 30px;
+
+  max-width: 1000px;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap; */
+  border: 2px solid #000;
+  border-radius: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 190px;
+  padding: 50px;
+}
+
+:root {
+  --primary-color: #007a80;
+  --card-color: #00b6bf;
+  --hover-color-back: #003d40;
+  --hover-color-font: #fff;
+  --nav-color: #fff;
+}

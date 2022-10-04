@@ -8,25 +8,25 @@
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Quiz - App</h1>
+    <header class="header">
+      <h1>Quiz-App</h1>
     </header>
 
-    <main>
-      <section class="flex-container">
-        <img src="./CSS/icons/bookmark-full-48.png" alt="bookmark image" />
+    <main class="main">
+      <section class="card">
+        <img src="./assets/icons/bookmark-full-48.png" alt="bookmark image" />
         <p>Wie viele Liter Bier werden in Deutschland pro Kopf jährlich getrunken?</p>
-        <a href="#"><button type="button">Show Answer</button></a>
+        <button class="card__button" type="button">Show Answer</button>
         <p class="answer">100 Liter Bier</p>
         <ul>
           <li>#Bierwissen</li>
         </ul>
       </section>
 
-      <section class="flex-container">
-        <img src="./CSS/icons/bookmark-full-48.png" alt="bookmark image" />
+      <section class="card">
+        <img src="./assets/icons/bookmark-full-48.png" alt="bookmark image" />
         <p>Wie lang ist der Begattungsapparat der 15 cm langen Bananenschnecke?</p>
-        <a href="#"><button type="button">Show Answer</button></a>
+        <button class="card__button" type="button">Show Answer</button>
         <p class="answer">Circa 80 cm, das entspricht 550 Prozent der Körpergröße.</p>
         <ul>
           <li>#Tiere</li>
@@ -34,16 +34,16 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <nav>
-        <a>
-          <img src="./CSS/icons/house-white-50.png" alt="link zur Startseite" />
+    <footer>
+      <nav class="navigation">
+        <a href="./index.html">
+          <img src="./assets/icons/house-white-50.png" alt="link zur Startseite" />
         </a>
-        <a class="active">
-          <img src="./CSS/icons/bookmark-50.png" alt="link zu den Lesezeichen" />
+        <a class="navigation__item--active" href="./bookmarks.html">
+          <img src="./assets/icons/bookmark-50.png" alt="link zu den Lesezeichen" />
         </a>
-        <a>
-          <img src="./CSS/icons/profile-50.png" alt="link zum Profile" />
+        <a href="./profile.html">
+          <img src="./assets/icons/profile-50.png" alt="link zum Profile" />
         </a>
       </nav>
     </footer>

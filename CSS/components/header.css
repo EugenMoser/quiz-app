@@ -1,0 +1,8 @@
+.header {
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 3px solid #000;
+  border-radius: 20px 20px 0 0;
+  background-color: var(--card-color);
+  padding: 0;
+}

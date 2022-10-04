@@ -1,0 +1,17 @@
+.card__button {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 200px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.button--answer:hover {
+  background-color: var(--hover-color-back);
+  color: var(--hover-color-font);
+  font-size: larger;
+}
